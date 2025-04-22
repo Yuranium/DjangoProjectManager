@@ -1,73 +1,66 @@
-# FlowMaster
+# ProjectManager
 
-FlowMaster is a modern project management application designed to help individuals and teams organize their tasks, collaborate efficiently, and track progress. It provides a user-friendly interface along with powerful features to manage projects, tasks, and team members.
-
-## Why FlowMaster?
-Managing projects can be overwhelming without the right tools. FlowMaster simplifies the process by offering a structured approach to task management, team collaboration, and progress tracking. Whether you’re a freelancer, startup, or enterprise, FlowMaster helps you stay on top of your projects.
-
+ProjectManager - это современное приложение для управления проектами, разработанное для того, чтобы помочь отдельным лицам и командам организовать свою работу, эффективно сотрудничать и отслеживать прогресс. Оно предоставляет удобный интерфейс и мощные функции для управления проектами, задачами и членами команды.
+## Почему ProjectManager?
+Управление проектами может быть затруднено без необходимых инструментов. Project Manager упрощает процесс, предлагая структурированный подход к управлению задачами, совместной работе в команде и отслеживанию прогресса. Независимо от того, являетесь ли вы фрилансером, стартапером или предприятием, ProjectManager поможет вам оставаться в курсе ваших проектов.
 ## Key Features
-- **User Authentication & Profiles**: Secure login system with user profiles.
+- **User Authentication & Profiles**: Защищенная система входа в систему с профилями пользователей.
 - **Project Management**: Create, edit, and manage projects with ease.
-- **Task Tracking**: Assign tasks, set deadlines, and track progress.
-- **Team Collaboration**: Invite team members and manage project roles.
+- **Task Tracking**: Cоздавайте, редактируйте проекты и управляйте ими.
+- **Team Collaboration**: Приглашайте членов команды и управляйте ролями в проекте.
 
 ## Tech Stack
-FlowMaster is built using modern web technologies for scalability and performance.
+Project Manager создан с использованием современных веб-технологий для обеспечения масштабируемости и производительности.
 
 ### Frontend
-- **React** & **Tailwind CSS** for a responsive and dynamic UI.
-- **Axios** for seamless API communication.
+- **React** & **Tailwind CSS** для создания адаптивного и динамичного пользовательского интерфейса.
+- **Axios** для бесперебойного взаимодействия с API.
 
 ### Backend
-- **Django & Django REST Framework (DRF)** for a robust API.
+- **Django & Django REST Framework (DRF)** для создания надежного API.
 
-## Installation
+## Установить зависимости
 ### Frontend Setup
-1. Clone the repository:
+1. Клонировать проект:
    ```sh
-   git clone https://github.com/yourusername/flowmaster.git
-   cd flowmaster/frontend
+   git clone https://github.com/yourusername/ProjectManager.git
+   cd ProjectManager/frontend
    ```
-2. Install dependencies:
+2. Установить зависимости:
    ```sh
    npm install
    ```
-3. Run the development server:
+3. Запуск сервера:
    ```sh
    npm run dev
    ```
 
 ### Backend Setup
-1. Clone the backend repository:
+1. Клонировать проект:
    ```sh
-   git clone https://github.com/yourusername/flowmaster.git
-   cd flowmaster/backend
+   git clone https://github.com/yourusername/ProjectManager.git
+   cd ProjectManager/backend
    ```
-2. Set up a virtual environment:
+2. Установить виртуальное окружение:
    ```sh
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    ```
-3. Install dependencies:
+3. Установить зависимости:
    ```sh
    pip install -r requirements.txt
    ```
-4. Run the development server:
+4. Запуск сервера:
    ```sh
    python manage.py runserver
    ```
 
 ## Contributing
-We welcome contributions from the community! If you'd like to contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch-name`
-3. Commit your changes: `git commit -m "Describe your changes"`
-4. Push to your branch: `git push origin feature-branch-name`
-5. Open a pull request.
+1. Форкнуть репозиторий.
+2. Создать новую ветку: `git checkout -b feature-branch-name`
+3. Закомитить ваши изменения: `git commit -m "Describe your changes"`
+4. Запушить их: `git push origin feature-branch-name`
+5. Открыть pull request.
 
 ## License
-FlowMaster is open-source and licensed under the MIT License.
-
-## Contact
-For questions, feedback, or suggestions, feel free to reach out or open an issue!
-
+Project Manager работает с открытым исходным кодом и лицензируется по лицензии MIT.
